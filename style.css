@@ -178,6 +178,7 @@ body {
 .overview-bottom > div {
   display: flex;
   align-items: center;
+  gap: 15px;
 }
 input {
   width: 400px;
@@ -193,6 +194,21 @@ input {
 }
 .bottom-left {
   display: flex;
+}
+#user-icon {
+  font-size: 50px;
+}
+#name-with-handle {
+  font-size: x-large;
+  font-weight: bold;
+}
+.bottom-right > button {
+  background-color: rgb(52, 156, 253);
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  padding: 10px 30px;
 }
 .content {
   background-color: rgb(200, 210, 230);
